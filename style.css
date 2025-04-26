@@ -97,12 +97,12 @@ article,
 .inner-circle {
   content: "";
   position: absolute;
-  top: 0.25rem; /* Adjust border thickness */
-  left: 0.25rem;
-  bottom: 0.25rem;
-  right: 0.25rem;
+  top: -0.25rem; /* Adjust border thickness */
+  left: -0.25rem;
+  bottom: -0.25rem;
+  right: -0.25rem;
   border-radius: 50%;
-  border: 0.1rem solid var(--primary-bg-color); /* Define your border thickness and color */
+  border: 0.1rem solid black; /* Define your border thickness and color */
   z-index: 1; /* Make sure it is above the image */
 }
 
